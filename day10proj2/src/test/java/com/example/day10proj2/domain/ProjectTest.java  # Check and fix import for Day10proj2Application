@@ -1,0 +1,10 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import com.example.day10proj2.Day10proj2Application;
+
+class ProjectTest {
+    @Test
+    void contextLoads() {
+        assertNotNull(new Day10proj2Application());
+    }
+}
